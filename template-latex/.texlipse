@@ -1,0 +1,14 @@
+#TeXlipse project settings
+#Sat Mar 21 20:54:13 CET 2015
+markTmpDer=false
+builderNum=2
+outputDir=
+makeIndSty=
+bibrefDir=
+outputFormat=pdf
+tempDir=tmp
+mainTexFile=document.tex
+outputFile=frontispiece.pdf
+langSpell=it
+markDer=false
+srcDir=

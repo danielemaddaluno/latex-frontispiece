@@ -1,0 +1,31 @@
+\documentclass{book}
+
+% Once produced pdf frontispiece with this tex:
+% - add \usepackage{pdfpages} beetween the imports of your document.tex
+% - add \includepdf[pages={1}]{frontispiece.pdf} after the \begin{document}
+
+% Begin - For the frontispiece
+\usepackage[nowrite]{front-th}
+\nofiles
+\fontoptionnormal
+\Universita {Firenze}
+\Facolta {Ingegneria}
+\Logo [3.5cm]{arms.jpg}
+\Corso [Laurea]{Ingegneria Informatica}
+\Annoaccademico {2013--2014}
+\Titolo {Metodi di previsione per sistemi di bike sharing mediante modelli
+ARIMA dinamici}
+\Candidato {Daniele Maddaluno}
+\Relatore {Prof. Fabio Schoen}
+\Correlatore{Prof. Marco Sciandrone}
+% End - For the frontispiece
+
+\usepackage{pdfpages}
+\begin{document}
+
+% Begin - Prints the frontispiece
+\begin{preparefrontpage}
+\end{preparefrontpage}
+% End - Prints the frontispiece
+
+\end{document}
