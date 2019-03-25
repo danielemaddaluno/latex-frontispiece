@@ -7,4 +7,4 @@ It will create for you a pdf frontispiece like this one:
 Change .sty terms (e.g. "Università", "Candidato", "Relatore", etc.) to use other languages.<br/>
 Once produced the pdf frontispiece with this tex you can add it as first page of your tex following these two steps:
 * add `\usepackage{pdfpages}` beetween the imports of your document.tex
-* add `\includepdf[pages={1}]{frontispiece.pdf}` after your \begin{document}
+* add `\includepdf[pages={1}]{frontispiece.pdf}` after your `\begin{document}`
